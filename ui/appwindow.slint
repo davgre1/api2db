@@ -1,0 +1,64 @@
+import { Button, VerticalBox, HorizontalBox, LineEdit } from "std-widgets.slint";
+
+export component AppWindow inherits Window {
+    title: "api2db";
+    width: 500px;
+    height: 500px;
+
+    in-out property<string> api_input: "";
+    in-out property<string> db_input: "";
+    in-out property<string> preview-output: "";
+    callback api-response(string);
+    GridLayout {
+        padding: 50px;
+        spacing: 25px;
+        Row {
+            HorizontalBox {
+                alignment: center;
+                Text {
+                    text: "API: \{root.api_input}";
+                    font-size: 15px;
+                }
+                api_string := LineEdit {
+                    font-size: 15px;
+                    placeholder-text: "api string";
+                    height: 20px;
+                    width: 300px;
+                }
+            }
+        }
+        Row {
+            HorizontalBox {
+                alignment: center;
+                Text {
+                    text: "DB: \{root.db_input}";
+                    font-size: 15px;
+                }
+                db_string := LineEdit {
+                    font-size: 15px;
+                    placeholder-text: "db string";
+                    height: 20px;
+                    width: 300px;
+                }
+            }
+        }
+        Row {
+            HorizontalBox {
+                alignment: center;
+                Text {
+                    font-size: 15px;
+                    text: "JSON: \{root.preview_output}";
+                }
+            }
+        }
+        Row {
+            Button {
+                text: "Connect";
+                height: 30px;
+                clicked => {
+                    api-response(api_string.text);
+                }
+            }
+        }
+    }
+}
