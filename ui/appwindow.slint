@@ -5,18 +5,19 @@ export component AppWindow inherits Window {
     width: 500px;
     height: 500px;
 
-    in-out property<string> api_input: "";
+    in-out property<string> api-input: "";
     in-out property<string> db_input: "";
     in-out property<string> preview-output: "";
     callback api-response(string);
+    
     GridLayout {
-        padding: 50px;
+        padding: 25px;
         spacing: 25px;
         Row {
             HorizontalBox {
                 alignment: center;
                 Text {
-                    text: "API: \{root.api_input}";
+                    text: "API: \{root.api-input}";
                     font-size: 15px;
                 }
                 api_string := LineEdit {
@@ -24,6 +25,31 @@ export component AppWindow inherits Window {
                     placeholder-text: "api string";
                     height: 20px;
                     width: 300px;
+                }
+            }
+        }
+        Row {
+            VerticalBox {
+                alignment: center;
+                Text {
+                    text: "Preview: \{root.preview_output}";
+                    font-size: 15px;
+                }
+            }
+        }
+        Row {
+            HorizontalBox {
+                Button { 
+                    height: 30px;
+                    text: "DynamoDB";
+                }
+                Button { 
+                    height: 30px;
+                    text: "MongoDB"; 
+                }
+                Button { 
+                    height: 30px;
+                    text: "Postgres"; 
                 }
             }
         }
@@ -47,7 +73,16 @@ export component AppWindow inherits Window {
                 alignment: center;
                 Text {
                     font-size: 15px;
-                    text: "JSON: \{root.preview_output}";
+                    text: "Schema:";
+                }
+            }
+        }
+        Row {
+            HorizontalBox {
+                alignment: center;
+                Text {
+                    font-size: 15px;
+                    text: "\{root.preview_output}";
                 }
             }
         }

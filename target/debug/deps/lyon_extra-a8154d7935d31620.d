@@ -1,0 +1,10 @@
+/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/target/debug/deps/liblyon_extra-a8154d7935d31620.rmeta: /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/lib.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/debugging.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/parser.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/rust_logo.rs
+
+/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/target/debug/deps/liblyon_extra-a8154d7935d31620.rlib: /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/lib.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/debugging.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/parser.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/rust_logo.rs
+
+/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/target/debug/deps/lyon_extra-a8154d7935d31620.d: /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/lib.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/debugging.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/parser.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/rust_logo.rs
+
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/lib.rs:
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/debugging.rs:
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/parser.rs:
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lyon_extra-1.0.1/src/rust_logo.rs:
