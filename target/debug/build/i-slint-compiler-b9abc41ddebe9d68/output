@@ -1,2 +1,0 @@
-cargo:rerun-if-changed=/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-compiler-1.5.1/widgets
-cargo:rustc-env=SLINT_WIDGETS_LIBRARY=/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/target/debug/build/i-slint-compiler-b9abc41ddebe9d68/out/included_library.rs
