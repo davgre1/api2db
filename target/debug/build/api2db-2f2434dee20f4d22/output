@@ -1,7 +1,0 @@
-cargo:rerun-if-changed=/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/ui/appwindow.slint
-cargo:rerun-if-env-changed=SLINT_STYLE
-cargo:rerun-if-env-changed=SLINT_FONT_SIZES
-cargo:rerun-if-env-changed=SLINT_SCALE_FACTOR
-cargo:rerun-if-env-changed=SLINT_ASSET_SECTION
-cargo:rerun-if-env-changed=SLINT_EMBED_RESOURCES
-cargo:rustc-env=SLINT_INCLUDE_GENERATED=/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/target/debug/build/api2db-2f2434dee20f4d22/out/appwindow.rs

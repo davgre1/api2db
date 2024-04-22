@@ -1,23 +1,40 @@
-import { Button, VerticalBox, HorizontalBox, LineEdit } from "std-widgets.slint";
+import { Button, VerticalBox, HorizontalBox, LineEdit, ScrollView, StandardListView, ListView } from "std-widgets.slint";
 
 export component AppWindow inherits Window {
     title: "api2db";
     width: 500px;
-    height: 500px;
+    height: 750px;
 
+    in-out property<string> error-output: "";
     in-out property<string> api-input: "";
-    in-out property<string> db_input: "";
+    in-out property<string> db-input: "";
+    in-out property<string> response-output: "";
     in-out property<string> preview-output: "";
+    in-out property<string> status-code-output: "";
+    in-out property <[int]> preview-key: [];
+
     callback api-response(string);
+    callback api-response-dl(string);
     
     GridLayout {
         padding: 25px;
-        spacing: 25px;
+        spacing: 15px;
         Row {
             HorizontalBox {
                 alignment: center;
                 Text {
-                    text: "API: \{root.api-input}";
+                    text: "\{error-output}";
+                    color: red;
+                    font-size: 10px;
+                    width: 75px;
+                }
+            }
+        }
+        Row {
+            HorizontalBox {
+                alignment: center;
+                Text {
+                    text: "API:";
                     font-size: 15px;
                 }
                 api_string := LineEdit {
@@ -26,14 +43,41 @@ export component AppWindow inherits Window {
                     height: 20px;
                     width: 300px;
                 }
+                Text {
+                    text: "\{status-code-output}";
+                    color: white;
+                    font-size: 15px;
+                    width: 75px;
+                }
             }
         }
         Row {
-            VerticalBox {
-                alignment: center;
-                Text {
-                    text: "Preview: \{root.preview_output}";
-                    font-size: 15px;
+            HorizontalBox {
+                Button {
+                    text: "Test Connection";
+                    height: 30px;
+                    clicked => {
+                        api-response(api_string.text);
+                    }
+                }
+                Button {
+                    text: "Download";
+                    height: 30px;
+                    clicked => {
+                        api-response-dl(response-output);
+                    }
+                }
+            }
+        }
+        Row {
+            HorizontalLayout {
+                ListView {
+                    for string in preview-key: Rectangle {
+                        height: 15px;
+                        Text {
+                            text: string;
+                        }
+                    }
                 }
             }
         }
@@ -69,7 +113,7 @@ export component AppWindow inherits Window {
             }
         }
         Row {
-            HorizontalBox {
+            VerticalBox {
                 alignment: center;
                 Text {
                     font-size: 15px;
@@ -82,13 +126,13 @@ export component AppWindow inherits Window {
                 alignment: center;
                 Text {
                     font-size: 15px;
-                    text: "\{root.preview_output}";
+                    text: "TEST";
                 }
             }
         }
         Row {
             Button {
-                text: "Connect";
+                text: "Ingest";
                 height: 30px;
                 clicked => {
                     api-response(api_string.text);
