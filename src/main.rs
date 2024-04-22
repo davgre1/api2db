@@ -44,13 +44,13 @@ fn main() -> Result<(), slint::PlatformError> {
         }
 
 
-        let mut all_people: HashMap<String, Person> = HashMap::new();
-        for person in people {
-            let key = person.name; 
-            let value = Person { age: person.age, registry: person.registry };
-            all_people.insert(key, value);
-        }
-        println!("{:#?}", all_people);
+        // let mut all_people: HashMap<String, Person> = HashMap::new();
+        // for person in people {
+        //     let key = person.name; 
+        //     let value = Person { age: person.age, registry: person.registry };
+        //     all_people.insert(key, value);
+        // }
+        // println!("{:#?}", all_people);
 
         // let mut tmp = 0;
         // for tr in temp_resp {

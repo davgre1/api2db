@@ -1,0 +1,11 @@
+/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/target/debug/deps/libmio_uds-8e0638493d1ebeb9.rmeta: /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/lib.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/datagram.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/listener.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/socket.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/stream.rs
+
+/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/target/debug/deps/libmio_uds-8e0638493d1ebeb9.rlib: /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/lib.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/datagram.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/listener.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/socket.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/stream.rs
+
+/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/target/debug/deps/mio_uds-8e0638493d1ebeb9.d: /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/lib.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/datagram.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/listener.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/socket.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/stream.rs
+
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/lib.rs:
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/datagram.rs:
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/listener.rs:
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/socket.rs:
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/mio-uds-0.6.8/src/stream.rs:

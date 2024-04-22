@@ -1,0 +1,10 @@
+/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/target/debug/deps/librusoto_signature-ba885c730db94299.rmeta: /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/lib.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/region.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/signature.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/stream.rs
+
+/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/target/debug/deps/librusoto_signature-ba885c730db94299.rlib: /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/lib.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/region.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/signature.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/stream.rs
+
+/Users/davidgreene/Desktop/Workspace/projects/rust_learnings/api2db/target/debug/deps/rusoto_signature-ba885c730db94299.d: /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/lib.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/region.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/signature.rs /Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/stream.rs
+
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/lib.rs:
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/region.rs:
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/signature.rs:
+/Users/davidgreene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusoto_signature-0.47.0/src/stream.rs:
